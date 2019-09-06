@@ -1,5 +1,5 @@
 {
-  "name": "@back4app/migrate-files-to-s3",
+  "name": "@back4app/migrate-mongodb-files-to-s3",
   "version": "0.0.1",
   "description": "Tool to migrate from mongodb files to s3",
   "main": "index.js",
