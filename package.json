@@ -1,0 +1,20 @@
+{
+  "name": "@back4app/migrate-files-to-s3",
+  "version": "0.0.1",
+  "description": "Tool to migrate from mongodb files to s3",
+  "main": "index.js",
+  "scripts": {
+  },
+  "bin": {
+    "migrate": "./index.js"
+  },
+  "author": "@paivaric",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.524.0",
+    "bluebird": "^3.5.5",
+    "mime": "^2.4.4",
+    "mongodb": "^3.3.2",
+    "yargs": "^14.0.0"
+  }
+}
