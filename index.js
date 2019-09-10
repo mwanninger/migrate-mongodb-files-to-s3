@@ -29,7 +29,6 @@ const args = yargs
   })
   .option('folder', {
     alias: 'f',
-    required: true,
     describe: 'folder'
   })
   .option('bucket', {
@@ -62,7 +61,7 @@ const args = yargs
   .alias('version', 'v')
   .argv
 
-const {mongoUri, dbName, appId: folder, bucket, region, concurrency, accessKeyId, secretAccessKey} = args
+const {mongoUri, dbName, folder, bucket, region, concurrency, accessKeyId, secretAccessKey} = args
 
 console.log('Your options: ', {mongoUri, dbName, folder, bucket, region, concurrency, accessKeyId, secretAccessKey})
 
