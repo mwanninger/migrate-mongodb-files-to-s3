@@ -126,7 +126,6 @@ function readFileFromMongo (file) {
 
 function writeFileToS3 (file, data) {
   const params = {
-    ACL: 'public-read',
     Key: folder ? `${folder}/${file.filename}`: file.filename,
     Body: data,
     ContentType: mime.getType(file.filename)
